@@ -1,0 +1,112 @@
+body {
+  color: rgb(245, 238, 238); 
+}
+
+.header {
+  position: fixed; /* Fix the header at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure full width */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.welcome-text {
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: white;
+  /* text-align: center; */
+  margin: 120px 0 20px; /* Add spacing below the header and around the text */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Subtle shadow for contrast */
+}
+
+.footer {
+  position: fixed; /* Fix the footer at the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Ensure full width */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.user-button {
+  position: absolute;
+  margin-left: 35%;
+  background-color: #07130774;
+  border-radius: 8px;
+  width: 10%;
+  border: none;
+  color: white;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.admin-button {
+  position: absolute;
+  margin-left: 55%;
+  background-color: #07130774;
+  border-radius: 8px;
+  width: 10%;
+  border: none;
+  color: white;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+table {
+  color: rgb(243, 233, 233);
+}
+
+table th {
+  color: rgb(243, 239, 239);
+}
+
+table td {
+  color: rgb(248, 244, 244);
+}
+
+.reserve-button {
+  background-color: #07130774;
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.reserve-button:hover {
+  background-color: #07130774;
+  transform: scale(1.05); 
+}
+
+.reserve-button:disabled {
+  background-color: #ccc;
+  color: #666; 
+  cursor: not-allowed; 
+}
+
+.reserve-button:disabled:hover {
+  background-color: #ccc; 
+  transform: none; /* Disable zoom-in effect */
+}

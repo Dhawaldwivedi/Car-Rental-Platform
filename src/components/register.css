@@ -1,0 +1,247 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+ 
+/*body {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}*/
+ 
+/* .AppNew {
+  display: flex;
+  flex-direction: initial;
+  justify-content: flex-start;
+   align-items: flex-start;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+} */
+ 
+
+.login{
+
+    section {
+        margin-top: 3%;
+        margin-left: 15%;
+        max-width: 920px;
+        flex-direction: column;
+        max-height: 10%;
+    }
+    h1{
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 0%;
+
+    }
+    form{
+        background-color: rgba(181, 176, 168, 0.553);
+        width: 20%;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    #username,#password,
+    textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border-radius: 1%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 2% ;
+    }
+    button{
+        margin-left: 15%;
+        width: 55%;
+        padding: 2%;
+        margin-top: 8%;
+    }
+    label{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+
+    
+}
+
+div{
+    display:table;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+a, a:visited {
+    color: #fff;
+}
+ 
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  border-radius: 1%;
+}
+ 
+label,
+button {
+  margin-top: 1%;
+  
+}
+ 
+button {
+  padding: 0.5rem;
+}
+ 
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+ 
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+ 
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+ 
+.hide {
+    display: none;
+}
+ 
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+ 
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+ 
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+}
+ 
+.line {
+    display: inline-block;
+}
+
+
+#background1{
+        background: url("C:\Users\asus\Desktop\car image 3.webp")rgb(30,30,30) fixed center center;
+        background-size: cover;
+        width:200%;
+        height:100%;
+        position:fixed;
+}
+#background2{
+    background: url("C:\Users\asus\Desktop\login image background.webp")rgb(30,30,30) fixed center center;
+    background-size: cover;
+    width:200%;
+    height:100%;
+    position:fixed;
+}
+#background3{
+    background: url("C:\Users\asus\Desktop\vehiclelist background.webp")rgb(30,30,30) fixed center center;
+    background-size: cover;
+    width:200%;
+    height:100%;
+    position:fixed;
+}
+#background4{
+    background: url("C:\Users\asus\Desktop\reservation list background.jpeg")rgb(30,30,30) fixed center center;
+    background-size: cover;
+    width:200%;
+    height:100%;
+    position:relative;
+}
+/* Background Styling */
+#background5 {
+    background: url("C:\Users\asus\Desktop\reservation list background.jpeg")rgb(30,30,30) fixed center center;
+    min-height: 100vh;
+    display: flex;
+    width:200%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+#background6{
+    background: url("C:\Users\asus\Desktop\payment background.jpeg")rgb(30,30,30) fixed center center;
+    background-size: cover;
+    width:200%;
+    height:100%;
+    position:absolute;
+}
+
+.btn-grey {
+    background-color: grey;
+    color: white; /* Ensures the text is readable */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: Rounded corners */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-grey:hover {
+    background-color: darkgrey; /* Slightly darker grey on hover */
+  }
+  
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 3%;
+
+    form.leftside{
+        margin-right: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    form.rightside{
+        margin-top: -56.5%;
+        margin-left:55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+/* Already Registered Section */
+.already {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.already a {
+    color: #242828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.already a:hover {
+    text-decoration: underline;
+}
+
+
+/*div.already{
+    margin-top: 16%;
+    position: absolute;
+    margin-left: 16%;
+}*/
+   

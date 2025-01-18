@@ -1,0 +1,71 @@
+/* General container for ReservationList */
+.p-5 {
+    padding: 20px;
+    background-color: #060404;
+    width:200%;
+    height:100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  /* DateTimePicker Styling */
+  .react-datetime-picker {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .react-datetime-picker__wrapper {
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .react-datetime-picker__inputGroup {
+    font-size: 16px;
+  }
+  
+  .react-datetime-picker__calendar-button,
+  .react-datetime-picker__clear-button {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #51585e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #050607;
+  }
+  
